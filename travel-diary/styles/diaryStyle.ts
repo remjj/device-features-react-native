@@ -1,0 +1,100 @@
+import { StyleSheet } from 'react-native';
+
+const diaryStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingTop: 20,
+  },
+  title: {
+    fontSize: 26,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginTop: 20,
+    marginBottom: 20,
+    color: '#6B4E71',
+  },
+  listContainer: {
+    paddingBottom: 10,
+    paddingHorizontal: 15,
+  },
+  entryContainer: {
+    width: '90%',
+    alignSelf: 'center',
+    marginTop: 20,
+    marginBottom: 20,
+    borderRadius: 12,
+    backgroundColor: '#6B4E71',
+    borderWidth: 1,
+    borderColor: '#ddd',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    overflow: 'hidden',
+    paddingBottom: 20,
+    paddingHorizontal: 15,
+  },
+  image: {
+    width: '100%',
+    height: 300,
+    borderRadius: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ddd',
+    marginTop: 15,
+  },
+  textWrapper: {
+    paddingHorizontal: 5,
+    paddingTop: 10,
+  },
+  location: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#fff',
+    paddingTop: 10,
+  },
+  date: {
+    fontSize: 12,
+    color: '#fff',
+    marginTop: 4,
+  },
+  description: {
+    fontSize: 16,
+    color: '#fff',
+    lineHeight: 22,
+    paddingTop: 12,
+  },
+  noEntries: {
+    textAlign: 'center',
+    fontSize: 16,
+    color: '#888',
+  },
+  optionsContainer: {
+    position: 'absolute',
+    top: 10,
+    right: 20,
+    zIndex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingRight: 10,
+  },
+  menu: {
+    position: 'absolute',
+    top: 30,
+    right: 0,
+    backgroundColor: '#fff',
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    paddingVertical: 5,
+    width: 100,
+    elevation: 5,
+  },
+  menuItem: {
+    padding: 10,
+    textAlign: 'center',
+    color: '#333',
+  },
+});
+
+export default diaryStyles;
